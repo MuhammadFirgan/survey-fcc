@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Survey-form</title>
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">Survey form</h1>
+    <p id="description">Please fill the form, thank you.</p>
+    <form action="" id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input type="text" id="name" name="name" required placeholder="Your name..">
+      <label for="email" id="email-label">Email</label>
+      <input type="email" name="email" id="email" required placeholder="Your email..">
+      <label for="number" id="number-label">Age</label>
+      <input type="number" name="number" id="number" min="3" max="13" required placeholder="How old are you?">
+      <label for="dropdown">Choose your favorite hero</label>
+      <select name="select" name="dropdown" id="dropdown">
+        <option>Akai (Tank)</option>
+        <option>Grock (Tank)</option>
+        <option>Khufra (Tank)</option>
+        <option>Lapu-lapu (Tank)</option>
+        <option>Chou (Fighter)</option>
+        <option>paquito (Fighter)</option>
+        <option>Lunox (Mage)</option>
+        <option>Alice (Mage)</option>
+        <option>Selena (Mage)</option>
+        <option>Diggie (Support)</option>
+        <option>Angela (Support)</option>
+        <option>Claude (Marksman)</option>
+        <option>Granger (Marksman)</option>
+        <option>Yi sun shin (Marksman)</option>
+        <option>Ling (Assassin)</option>
+        <option>Lancelot (Assassin)</option>
+        <option>Natalia (Assassin)</option>
+        <option>Benedeta (Assassin)</option>
+      </select>
+      <br> 
+      <label for="radio"> Choose your favorite role!</label> <br>
+      <input type="radio" name="radio" id="radio" value="tanker"/> Tanker<br>
+      <input type="radio" name="radio" id="radio" value="fighter"/> Fighter <br>
+      <input type="radio" name="radio" id="radio" value="assassin"/> Assassin <br>
+      <input type="radio" name="radio" id="radio" value="Marksman"/> Marksman <br>
+      <input type="radio" name="radio" id="radio" value="mage"/> Mage <br>
+      <input type="radio" name="radio" id="radio" value="support"/> Support <br>
+      <label for="radio">Choose your rank!</label> <br>      
+      <input type="checkbox" name="check" id="check" value="warrior" checked/> Warrior<br> 
+      <input type="checkbox" name="check" id="check" value="elite"/> Elite <br>
+      <input type="checkbox" name="check" id="check" value="master"/> Master <br>
+      <input type="checkbox" name="check" id="check" value="gm"/> Grandmaster <br>
+      <input type="checkbox" name="check" id="check" value="epic"/> Epic <br>
+      <input type="checkbox" name="check" id="check" value="legend"/> Legend <br>
+      <input type="checkbox" name="check" id="check" value="mythic"/> Mythic <br>
+      <label for="textarea">Any comments or suggestions?</label>
+      <textarea name="textarea" id="textarea" rows="8" cols="40"></textarea>
+      <button type="submit" name="submit" id="submit">Submit</button>
+    </form>
+    
+  </div>
+  
+  
+  
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
